@@ -1,0 +1,32 @@
+package com.lcwd.user.service.imple;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.lcwd.user.service.UserServices.UserServices;
+import com.lcwd.user.service.entities.User;
+
+@Service 
+public class UserServiceImple implements UserServices {
+
+	@Override
+	public User saveUser(User user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<User> getAllUser() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public User getUser(String userId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+}

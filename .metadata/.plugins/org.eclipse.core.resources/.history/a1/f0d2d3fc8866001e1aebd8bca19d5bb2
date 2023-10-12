@@ -1,0 +1,18 @@
+package com.lcwd.user.service.exception;
+
+
+public class ResouceNotFound extends RuntimeException{
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 5502108256633847166L;
+
+	public ResouceNotFound() {
+		super("Resource not found Exception");
+	}
+	
+	public ResouceNotFound(String message) {
+		super(message);
+	}
+}

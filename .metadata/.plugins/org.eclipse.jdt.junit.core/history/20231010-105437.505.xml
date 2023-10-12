@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="DemoApplicationTests" project="demo" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.lcwd.user.service.DemoApplicationTests" time="1.484" displayname="DemoApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.lcwd.user.service.DemoApplicationTests]">
+    <testcase name="contextLoads" classname="com.lcwd.user.service.DemoApplicationTests" time="1.038" displayname="contextLoads()" uniqueid="[engine:junit-jupiter]/[class:com.lcwd.user.service.DemoApplicationTests]/[method:contextLoads()]"/>
+    <testcase name="createRating" classname="com.lcwd.user.service.DemoApplicationTests" time="0.445" displayname="createRating()" uniqueid="[engine:junit-jupiter]/[class:com.lcwd.user.service.DemoApplicationTests]/[method:createRating()]"/>
+  </testsuite>
+</testrun>

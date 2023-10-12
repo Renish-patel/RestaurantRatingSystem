@@ -1,0 +1,13 @@
+package com.lcwd.gateway.models;
+
+import java.util.Collection;
+
+public class AuthResponse {
+	 
+	private String userIdString;
+	private String accessToken;
+	private String refreshToken;
+	private long expireAt;
+	private  Collection<String> authoritie;
+	
+}
