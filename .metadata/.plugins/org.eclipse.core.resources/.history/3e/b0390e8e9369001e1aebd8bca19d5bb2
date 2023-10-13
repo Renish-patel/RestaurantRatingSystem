@@ -1,0 +1,20 @@
+package com.lcwd.user.service.config.interceptor;
+
+import org.springframework.security.oauth2.core.OAuth2AccessToken;
+
+import feign.RequestInterceptor;
+import feign.RequestTemplate;
+
+public class FeignClientInterceptor implements RequestInterceptor {
+private OAuth2AccessToken token;
+	
+	@Override
+	public void apply(RequestTemplate template) {
+		// TODO Auto-generated method stub
+		template.header("Authoriztion", "Bearer"+token);
+		
+	}
+	
+	
+
+}
